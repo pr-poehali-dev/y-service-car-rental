@@ -5,29 +5,29 @@ import Icon from '@/components/ui/icon';
 const cars = [
   {
     id: 1,
-    name: 'Škoda Rapid',
+    name: 'Škoda Rapid 2017',
     description: 'Надежный и экономичный седан для работы в такси',
     features: ['Механика/Автомат', 'Кондиционер', 'ABS/ESP', 'Bluetooth'],
     specs: ['1.6 л', '110 л.с.', 'Бензин', '5 мест'],
-    image: 'https://cdn.poehali.dev/projects/5d53ac55-57ab-4892-ad65-6728b2e37826/files/8efff2e0-0e61-40c4-b2c6-0f31eebeaaec.jpg',
+    image: 'https://cdn.poehali.dev/projects/5d53ac55-57ab-4892-ad65-6728b2e37826/files/ce1c5669-ce94-474d-94b5-3065065673ad.jpg',
     popular: true
   },
   {
     id: 2,
-    name: 'Škoda Octavia',
+    name: 'Škoda Octavia 2017',
     description: 'Комфортный седан бизнес-класса',
     features: ['Автомат', 'Климат-контроль', 'Круиз-контроль', 'Парктроник'],
     specs: ['1.8 л', '150 л.с.', 'Бензин', '5 мест'],
-    image: 'https://cdn.poehali.dev/projects/5d53ac55-57ab-4892-ad65-6728b2e37826/files/39bcfb03-c089-49d2-a633-76e3cfb599e9.jpg',
+    image: 'https://cdn.poehali.dev/projects/5d53ac55-57ab-4892-ad65-6728b2e37826/files/e717266c-ac90-49c9-a1ee-e444c08d6a00.jpg',
     popular: false
   },
   {
     id: 3,
-    name: 'Haval Jolion',
+    name: 'Haval Jolion 2025',
     description: 'Современный кроссовер с отличной комплектацией',
     features: ['Автомат', 'Панорамная крыша', 'Подогрев сидений', 'Камера заднего вида'],
     specs: ['1.5 л', '143 л.с.', 'Бензин', '5 мест'],
-    image: 'https://cdn.poehali.dev/projects/5d53ac55-57ab-4892-ad65-6728b2e37826/files/de7284f5-642a-4691-9674-dd6e16bac18c.jpg',
+    image: 'https://cdn.poehali.dev/projects/5d53ac55-57ab-4892-ad65-6728b2e37826/files/e50755f4-435e-4cf7-9045-6c45ec170e96.jpg',
     popular: false
   }
 ];
