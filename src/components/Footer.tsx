@@ -6,8 +6,12 @@ export default function Footer() {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
-            <div className="flex items-center space-x-2 mb-4">
-              <Icon name="CarFront" size={28} className="text-primary" />
+            <div className="flex items-center space-x-3 mb-4">
+              <img 
+                src="https://cdn.poehali.dev/files/ЛОГОТИП.png" 
+                alt="Ю-Сервис" 
+                className="h-10 w-auto"
+              />
               <span className="text-2xl font-bold">Ю-Сервис</span>
             </div>
             <p className="text-white/80">

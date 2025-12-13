@@ -17,8 +17,12 @@ export default function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-border">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          <div className="flex items-center space-x-2">
-            <Icon name="CarFront" size={32} className="text-primary" />
+          <div className="flex items-center space-x-3">
+            <img 
+              src="https://cdn.poehali.dev/files/ЛОГОТИП.png" 
+              alt="Ю-Сервис" 
+              className="h-12 w-auto"
+            />
             <span className="text-2xl font-bold text-secondary">Ю-Сервис</span>
           </div>
 
