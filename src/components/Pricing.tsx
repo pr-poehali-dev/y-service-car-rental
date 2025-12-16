@@ -5,7 +5,7 @@ import Icon from '@/components/ui/icon';
 const pricingPlans = [
   {
     name: 'Škoda Rapid',
-    price: '1 500',
+    price: '2 000',
     period: 'сутки',
     features: [
       'Механика или автомат',
@@ -17,7 +17,7 @@ const pricingPlans = [
   },
   {
     name: 'Škoda Octavia',
-    price: '1 800',
+    price: '2 300',
     period: 'сутки',
     features: [
       'Автоматическая КПП',
@@ -30,7 +30,7 @@ const pricingPlans = [
   },
   {
     name: 'Haval Jolion',
-    price: '2 200',
+    price: '2 500',
     period: 'сутки',
     features: [
       'Автоматическая КПП',
@@ -38,6 +38,18 @@ const pricingPlans = [
       'Подогрев сидений',
       'Камера заднего вида',
       'Полная страховка'
+    ]
+  },
+  {
+    name: 'Evolute i-Pro',
+    price: '2 300',
+    period: 'сутки',
+    features: [
+      'Автоматическая КПП',
+      'Электропривод',
+      'Мультимедиа система',
+      'Быстрая зарядка',
+      'Запас хода 405 км'
     ]
   }
 ];
@@ -62,7 +74,7 @@ export default function Pricing() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {pricingPlans.map((plan, idx) => (
             <Card 
               key={idx} 
