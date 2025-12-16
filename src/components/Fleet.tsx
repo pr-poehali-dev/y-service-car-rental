@@ -9,6 +9,7 @@ const cars = [
     description: 'Надежный и экономичный седан для работы в такси',
     features: ['Механика/Автомат', 'Кондиционер', 'ABS/ESP', 'Bluetooth'],
     specs: ['1.6 л', '110 л.с.', 'Бензин', '5 мест'],
+    price: 'от 2000 ₽/сутки',
     image: 'https://cdn.poehali.dev/projects/5d53ac55-57ab-4892-ad65-6728b2e37826/files/ce1c5669-ce94-474d-94b5-3065065673ad.jpg',
     popular: true
   },
@@ -18,6 +19,7 @@ const cars = [
     description: 'Комфортный седан бизнес-класса',
     features: ['Автомат', 'Климат-контроль', 'Круиз-контроль', 'Парктроник'],
     specs: ['1.8 л', '150 л.с.', 'Бензин', '5 мест'],
+    price: 'от 2300 ₽/сутки',
     image: 'https://cdn.poehali.dev/projects/5d53ac55-57ab-4892-ad65-6728b2e37826/files/e717266c-ac90-49c9-a1ee-e444c08d6a00.jpg',
     popular: false
   },
@@ -27,7 +29,18 @@ const cars = [
     description: 'Современный кроссовер с отличной комплектацией',
     features: ['Автомат', 'Панорамная крыша', 'Подогрев сидений', 'Камера заднего вида'],
     specs: ['1.5 л', '143 л.с.', 'Бензин', '5 мест'],
+    price: 'от 2500 ₽/сутки',
     image: 'https://cdn.poehali.dev/projects/5d53ac55-57ab-4892-ad65-6728b2e37826/files/e50755f4-435e-4cf7-9045-6c45ec170e96.jpg',
+    popular: false
+  },
+  {
+    id: 4,
+    name: 'Evolute i-Pro 2025',
+    description: 'Электромобиль нового поколения для экономичной работы',
+    features: ['Автомат', 'Электропривод', 'Мультимедиа', 'Быстрая зарядка'],
+    specs: ['Электро', '150 л.с.', 'Запас хода 405 км', '5 мест'],
+    price: 'от 2300 ₽/сутки',
+    image: 'https://cdn.poehali.dev/projects/5d53ac55-57ab-4892-ad65-6728b2e37826/files/610a029e-9036-40f3-a0fe-a4b4c29ab3fa.jpg',
     popular: false
   }
 ];
@@ -65,6 +78,8 @@ export default function Fleet() {
               </CardHeader>
 
               <CardContent className="space-y-4">
+                <div className="text-2xl font-bold text-primary mb-3">{car.price}</div>
+                
                 <div className="flex flex-wrap gap-2">
                   {car.specs.map((spec, idx) => (
                     <Badge key={idx} variant="outline" className="text-sm">

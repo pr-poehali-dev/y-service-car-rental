@@ -22,8 +22,8 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Контакты</h3>
             <div className="space-y-2 text-white/80">
-              <p>г. Ялта, ул. Киевская, 25</p>
-              <p>+7 (978) 765-43-21</p>
+              <p>г. Ялта, переулок Свердлова 6А</p>
+              <p>+7 (918) 050-92-41</p>
               <p>info@юсервис.рф</p>
             </div>
           </div>

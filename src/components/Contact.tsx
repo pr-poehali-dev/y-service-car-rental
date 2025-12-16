@@ -101,8 +101,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="font-semibold">Телефон</p>
-                    <a href="tel:+79787654321" className="text-primary hover:underline">
-                      +7 (978) 765-43-21
+                    <a href="tel:+79180509241" className="text-primary hover:underline">
+                      +7 (918) 050-92-41
                     </a>
                   </div>
                 </div>
@@ -125,7 +125,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="font-semibold">Адрес</p>
-                    <p className="text-muted-foreground">г. Ялта, ул. Киевская, 25</p>
+                    <p className="text-muted-foreground">г. Ялта, переулок Свердлова 6А</p>
                   </div>
                 </div>
 
