@@ -1,0 +1,20 @@
+{
+  "tests": [
+    {
+      "name": "Test email sending",
+      "method": "POST",
+      "path": "/",
+      "body": {
+        "name": "Тестовый пользователь",
+        "phone": "+79181234567",
+        "car": "Škoda Rapid",
+        "message": "Хочу арендовать автомобиль"
+      },
+      "expectedStatus": 200,
+      "expectedBody": {
+        "success": true
+      },
+      "bodyMatcher": "partial"
+    }
+  ]
+}

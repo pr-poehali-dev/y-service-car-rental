@@ -20,7 +20,7 @@ const pricingPlans = [
     price: '2 300',
     period: 'сутки',
     features: [
-      'Автоматическая КПП',
+      'Автоматическая КПП 1.6л',
       'Климат-контроль',
       'Круиз-контроль',
       'Парктроник',
@@ -118,34 +118,7 @@ export default function Pricing() {
           ))}
         </div>
 
-        <Card className="bg-accent/5 border-accent/20">
-          <CardHeader>
-            <CardTitle className="text-xl flex items-center gap-2">
-              <Icon name="Info" size={24} className="text-accent" />
-              Дополнительная информация
-            </CardTitle>
-          </CardHeader>
-          <CardContent>
-            <div className="grid md:grid-cols-2 gap-4 text-sm">
-              <div className="flex items-start gap-2">
-                <Icon name="CheckCircle" size={16} className="text-primary mt-0.5" />
-                <span>Скидки при аренде от 3 месяцев — до 15%</span>
-              </div>
-              <div className="flex items-start gap-2">
-                <Icon name="CheckCircle" size={16} className="text-primary mt-0.5" />
-                <span>Возможность выкупа после 6 месяцев аренды</span>
-              </div>
-              <div className="flex items-start gap-2">
-                <Icon name="CheckCircle" size={16} className="text-primary mt-0.5" />
-                <span>Бесплатная подмена авто на время ремонта</span>
-              </div>
-              <div className="flex items-start gap-2">
-                <Icon name="CheckCircle" size={16} className="text-primary mt-0.5" />
-                <span>Помощь в подключении к агрегаторам такси</span>
-              </div>
-            </div>
-          </CardContent>
-        </Card>
+
       </div>
     </section>
   );

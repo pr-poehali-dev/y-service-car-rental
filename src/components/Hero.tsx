@@ -17,7 +17,7 @@ export default function Hero() {
             Аренда авто для работы в такси
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-4">
-            Škoda Rapid · Octavia · Haval Jolion
+            Škoda Rapid · Octavia · Haval Jolion · Evolute i-Pro
           </p>
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
             Выгодные условия аренды и выкупа в Ялте. Начните работать в такси уже сегодня!

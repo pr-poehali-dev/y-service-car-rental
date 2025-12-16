@@ -18,7 +18,7 @@ const cars = [
     name: 'Škoda Octavia 2017',
     description: 'Комфортный седан бизнес-класса',
     features: ['Автомат', 'Климат-контроль', 'Круиз-контроль', 'Парктроник'],
-    specs: ['1.8 л', '150 л.с.', 'Бензин', '5 мест'],
+    specs: ['1.6 л', '110 л.с.', 'Бензин', '5 мест'],
     price: 'от 2300 ₽/сутки',
     image: 'https://cdn.poehali.dev/projects/5d53ac55-57ab-4892-ad65-6728b2e37826/files/e717266c-ac90-49c9-a1ee-e444c08d6a00.jpg',
     popular: false
